@@ -6,9 +6,11 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 
-<body><form method="post">
+<body>
+	<form method="post">
+<h1>REGISTRATION FORM</h1>
 <label for="name">Name</label><br/>
-<input type="text" name="name" id=name value="" placeholder="Enter your name"/> <br/><br/>
+<input type="text" name="name" id=name value="" placeholder="Enter your name" required/> <br/><br/>
 
 <label for="email">Email</label><br/>
 <input type="email" name="email" id="email" value="" placeholder="Enter your email id" required/><br/><br/>
@@ -18,7 +20,7 @@
  Female <input type="radio"  name="gender" required> <br/><br/>
  
  <label for="cars">Cars Brands</label><br/>
- <select name="cars" style="width:95px;">
+ <select id="cars" name="cars" style="width:95px;">
   <option id="cars" value="bmw">BMW</option>
   <option id="cars" value="audi">Audi</option>
   <option id="cars" value="mercedez">Mercedez</option>

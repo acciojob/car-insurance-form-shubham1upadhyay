@@ -1,2 +1,15 @@
-
-/* Your CSS Code here. */
+form{
+	font-family:monospace;
+	font-weight:bold;
+	font-size:16px;
+	background-color:#f5f5f5;
+	padding:5%;
+}
+h1{
+	width:80%;
+	padding:5%;
+	font-family:cursive;
+	font-weight:bolder;
+	color:magenta;
+	background-color:black;
+}
